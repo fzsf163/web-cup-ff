@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 
-/* common things used all over may be- who knows how things work - 🤣🤣🤣 [windows + . (dot)] yeeee */
+/* common things used all over may be- who knows how things work - 🤣🤣🤣 yeeee */
 /* Font class */
+
 .fonts {
     font-family: 'Poppins', sans-serif;
 }
@@ -12,6 +13,7 @@ body{
     margin: 3%;
 }
 
+
 /* (❁´◡`❁)  here comes the header  (❁´◡`❁) */
 
 .containter-header {
@@ -19,18 +21,91 @@ body{
     background-color: crimson;
     border-radius: 30px;
     display: flex;
-    height: 500px;
+    height: auto;
     justify-content: center;
     width: 100%;
     margin: auto;
     margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 4%;
     position: static;
 }
 
+
+
+/* (ˉ﹃ˉ)    header Title 🙌👌🙌    (ˉ﹃ˉ) */
+
+.header{
+    border: 0; 
+    width: 500px;
+    height: auto;
+    z-index: 1;
+    position: relative;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+ /*  ಥ_ಥ header title ಥ_ಥ */
+
+.h-title{
+    width: auto;
+    height: 200px;
+    font-size: 60px;
+    text-align: left;
+    color: aliceblue;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+
+/* ಥ_ಥ header para ಥ_ಥ */
+
+.h-para{
+    margin-top: 0%;
+    padding-top: 0%;
+    color: aliceblue;
+    font-size: 15px;
+    position: relative;
+    bottom: 20px;
+
+}
+
+/* ಥ_ಥ header  button ಥ_ಥ */
+
+.watch-live-btn{
+    width: 50%;
+    height: 50px;
+    justify-content: flex-start;
+    color: rgb(206, 174, 173);
+    background-color: rgb(16, 22, 34);
+    border: 0;
+    position: relative;
+    bottom: 1px;
+    font-size: 1.3em;
+    font-weight: 700;
+    border-radius: 5px;
+    font-style: italic;
+    text-shadow: -3px 3px 0px black;  
+}
+
+.header  a{
+    text-decoration: none;
+    color: inherit;
+}
+.fa-caret-right{
+    font-size: 30px;
+    position: relative;
+    top: 3px;font-weight: 900;
+    
+}
 /*  ╰(*°▽°*)╯   image editing    ╰(*°▽°*)╯ */
 
 .img-header{
-    border: 2px dashed white;
+    border: 0; 
     height: 100%;
     
 }
@@ -38,38 +113,68 @@ body{
 .img-h-itself{
     width: 100%;
     height: auto;
-    border: 1px solid yellow;
+    border: 0p;
     position: relative;
-    top: 95px;
+    top: 59px;
+    right: 10px;
     
     
 }
 
-/* (ˉ﹃ˉ)    header Title 🙌👌🙌    (ˉ﹃ˉ) */
+/* ( •_•)>⌐■-■  resposive part ( •_•)>⌐■-■ */
 
-.header{
-    border: 1px dashed white;
-    width: 500px;
-    height: auto;
-    z-index: 1;
+@media only screen and (max-width:576px) {
+
+    .containter-header{
+        flex-direction: column;
+        border-radius: 9px;
+        height: 494px;
+    }
+
+    .header{
+        width: 75%;
+        left: 1.5%;
+        padding: 9%;
+        
+    }
+
+    .h-title{
+        width: 100%;
+        height: auto;
+        font-size: 1.5em;
+        text-align: center;
+        top: -25px;
+    }
+
+    .h-para{
+        width: 100%;
+        height: auto;
+        font-size: .75em;
+        text-align: center;
+        top: -30px;
+        
+    }
+
+    .watch-live-btn{
+       width: 60%;
+       height: auto;
+       left: 20%;
+       padding-bottom: 3px;
+       text-align: center;
+    }
+
+    .img-header{
+        display: flex;
+        align-items: center;
+    }
+
+    .img-h-itself{
+        top: 0%;
+        right: 0%;
+        bottom: 24px;
+        
+    }
+
+    
     
 }
-
-.h-title{
-    width: auto;
-    height: 240px;
-    font-size: 60px;
-    text-align: left;
-    color: aliceblue;
-    font-weight: 700;
-}
-
-.h-para{
-
-    margin-top: 0%;
-    padding-top: 0%;
-}
-
-
-
-
