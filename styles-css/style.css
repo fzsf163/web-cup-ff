@@ -412,7 +412,7 @@ footer hr {
 
 /* ᓚᘏᗢᓚᘏᗢᓚᘏᗢ small screen - mobile view ᓚᘏᗢᓚᘏᗢᓚᘏᗢᓚᘏᗢ */
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:576px) and (min-width:330px) {
 
     .containter-header {
         flex-direction: column;
