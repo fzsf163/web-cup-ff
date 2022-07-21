@@ -87,42 +87,6 @@ hr {
 
 /* ಥ_ಥ header  button ಥ_ಥ */
 
-/* 
-.watch-live-btn{
-    width: 50%;
-    height: 50px;
-    justify-content: flex-start;
-    color: #ceaead;
-    background-color: rgb(16, 22, 34);
-    border: 0;
-    position: relative;
-    bottom: 1px;
-    font-size: 2em;
-    font-weight: 700;
-    border-radius: 5px;
-    font-style: italic;
-    text-shadow: -3px 3px 0px black; 
-    text-align: center; 
-} */
-
-
-
-
-/* .header  a{
-    text-decoration: none;
-} */
-
-/* ಥ_ಥಥ_ಥ  icon-font-awesome ಥ_ಥಥ_ಥಥ_ಥ */
-/* .fa-caret-right{
-    font-size: 40px;
-    position: relative;
-    top: 5px;
-    font-weight: 700;
-    margin-left: 3px;  
-    margin-left: 0px;
-     
-} */
-
 .watch-live-btn-div {
     border: 0;
     width: 50%;
@@ -199,14 +163,12 @@ hr {
 
 .main-part-section {
     margin-top: 5%;
-    /* border: 1px dashed black; */
     display: flex;
     border-radius: 10px;
 }
 
 .nav-bar {
     display: flex;
-    /* border: 1px solid black; */
     width: 50%;
     height: 294px;
     flex-direction: column;
@@ -220,7 +182,6 @@ hr {
 }
 
 .options {
-    /* border: 1px dashed black; */
     height: 24%;
     padding-top: 6%;
     width: 75%;
@@ -237,21 +198,10 @@ hr {
     padding-left: 2%;
 }
 
-.nav-bar :hover {
-    background-color: red;
+#highlight-b{
+    background-color: #9b9bbd;
 }
 
-.nav-bar :active {
-    background-color: yellow;
-}
-
-.nav-bar a :visited {
-    background-color: green;
-}
-
-.nav-bar a :link {
-    background-color: #f0f7e7;
-}
 
 /* (❁´◡`❁)(❁´◡`❁) blog part (❁´◡`❁)(❁´◡`❁) */
 
@@ -301,7 +251,6 @@ div.icon-shortcut p {
 }
 
 .icon-shortcut {
-    /* border: 1px solid chartreuse; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -311,7 +260,6 @@ div.icon-shortcut p {
 
 .icon-time {
     width: 42%;
-    /* border: 1px solid magenta; */
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -321,23 +269,12 @@ div.icon-shortcut p {
 
 .icon-comment {
     width: 42%;
-    /* border: 1px solid magenta; */
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
     margin-left: -50%;
 }
-
-
-
-/* .fa-clock{
-    font-size: 1.2em;
-    position: relative;
-    top: 30%;
-    padding-left: 10%;
-    padding-right: ;
-} */
 
 
 /* 🎶🎶🎶🎶 view all -- only on tab-view 🎶🎶🎶🎶 */
