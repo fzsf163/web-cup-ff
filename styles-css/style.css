@@ -121,8 +121,16 @@ hr {
         background-color: #ceaead;
     }
 
+    15%{
+        background-color: #29311b;
+    }
+
     25% {
         background-color: black;
+    }
+
+    50%{
+        background-color: #5b8a10;
     }
 
     100% {
@@ -132,7 +140,7 @@ hr {
 }
 
 .header>div :hover {
-    animation: button-animation 3s ease-in 0s infinite;
+    animation: button-animation 4s ease-in 0s infinite;
 }
 
 /*  ╰(*°▽°*)╯   image editing    ╰(*°▽°*)╯ */
